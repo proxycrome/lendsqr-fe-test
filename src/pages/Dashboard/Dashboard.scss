@@ -1,0 +1,72 @@
+.dash{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    .dash-content {
+        background: #eeeded;
+        padding: 60px;
+        h2{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: #213F7D; 
+            margin-bottom: 40px;        
+        }
+        .dash-card{
+            width: 220px;
+            height: 160px;
+            background: #FFFFFF;
+            border: 1px solid rgba(33, 63, 125, 0.06);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px 0 30px 30px;
+            .pink-circle {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background: #DF18FF;
+                opacity: 0.1;
+            }
+            .purple-circle {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background: #5718FF;
+                opacity: 0.1;
+            }
+            .orange-circle {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background: #F55F44;
+                opacity: 0.1;
+            }
+            .red-circle {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background: #FF3366;
+                opacity: 0.1;
+            }
+            .card-name {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 16px;
+                text-transform: uppercase;
+                color: #545F7D;
+            }
+            .card-value {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 28px;
+                text-transform: uppercase;
+                color: #213F7D;
+            }
+        }
+    }
+}
