@@ -1,6 +1,6 @@
 .dash{
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 283px auto;
     .dash-content {
         background: #eeeded;
         padding: 60px;
@@ -68,5 +68,10 @@
                 color: #213F7D;
             }
         }
+    }
+    @media (max-width: 991px) {
+        display: flex;
+        width: 100%;
+        margin-left: 0;
     }
 }

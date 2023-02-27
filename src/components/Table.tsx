@@ -10,7 +10,6 @@ import { User } from './types';
 import { useAppDispatch, useAppSelector } from '../redux/hooks';
 import { fetchUsers } from '../redux/UserSlice';
 import Sort from '../assets/images/sort.png';
-
 import Prev from '../assets/images/Prev.svg';
 import Next from '../assets/images/Next.svg';
 import ActionsDropDown from './actionsDropDown';

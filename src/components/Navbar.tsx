@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className='content'>
       <Logo/>
       <div>
-        <div className="input-group">
+        <div className="input-group search-box">
             <input 
                 type="search" 
                 placeholder="Search for anything"

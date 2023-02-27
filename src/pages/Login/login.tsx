@@ -19,6 +19,9 @@ const Login = () => {
       </div>
       <div className='right-view'>
         <form>
+            <div className="logo">
+              <Logo />
+            </div>
             <div className="mb-5">
                 <h2>Welcome!</h2>
                 <p>Enter details to login</p>

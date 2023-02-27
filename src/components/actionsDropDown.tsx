@@ -18,6 +18,8 @@ type ActionButtonProps = {
 const ActionsDropDown: React.FC<ActionButtonProps> = ({id}: ActionButtonProps): JSX.Element => {
   const [menu, setMenu] = useState<boolean>(false);
 
+  console.log(id);
+  
   const toggle = () => {
     setMenu((prevState) => !prevState);
   };

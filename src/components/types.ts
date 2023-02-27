@@ -1,10 +1,10 @@
 export interface User {
     createdAt?: string
-    orgName: string,
-    userName: string
-    email: string
-    phoneNumber: string
-    lastActiveDate: string
+    orgName?: string,
+    userName?: string
+    email?: string
+    phoneNumber?: string
+    lastActiveDate?: string
     profile?: {
         firstName?: string
         lastName?: string
